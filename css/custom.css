@@ -1,0 +1,120 @@
+.noPadding {
+	padding: 0;
+}
+body {
+	background: #e6e6e6;
+}
+.container {
+	background: #fff;
+}
+.single-item {
+	background: #fff;
+	height: 300px;
+	border: 1px solid silver;
+	box-shadow: 0 0 5px grey;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.single-item:hover {
+	border-radius: 8px;
+}
+.top {
+	background: ;
+	height: 200px;
+
+}
+.top:hover {
+	border-radius: 8px 8px 0 0;
+}
+.top img {
+	height: 100%;
+	/* width: auto%; */
+	max-width: 100%;
+}
+.bottom {
+	background: #7ac143;
+	height: 100px;
+	color: #fff;
+	font-family: century gothic;
+}
+.bottom:hover {
+	border-radius: 0 0 8px 8px;
+}
+.item-name {
+	font-size: 1.2em;
+	text-align: center;
+	margin: 0;
+	padding-top: 10px; 
+}
+.real-price {
+	font-size: 0.9em;
+	margin-right: 10px;
+}
+.discount-price {
+	font-size: 0.9em;
+	margin-right: 10px;
+	font-style: italic;
+
+}
+
+/*Single Item Page */
+.product-title {
+	font-size: 40px;
+}
+.product-title hr {
+	background: #7ac143;
+}
+
+.product-desc-heading {
+	font-size: 25px;
+	text-decoration: underline;
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+	color: #f48924;
+}
+.product-desc {
+	font-size: 14px;
+	font-family: Roboto. Helvetica, Arial, sans-serif;
+	/*line-height: 1.42857; */
+}
+.product-desc p {}
+
+aside .btn {
+	height: 70px;
+	font-size: 35px;
+	background: #7ac143;
+	color: #fff;
+}
+
+aside .btn:hover {
+	background: #f48924;
+}
+
+.list-group {}
+
+.list-group-item {
+	font-size: 21px;
+	border-right: 0;
+	border-left: 0;
+	padding: 15px 0 15px 0;
+}
+
+.list-group-item:hover {
+	background: #e6ffee;
+}
+
+.list-group.item .fas {
+	color: green;
+}
+/* Cart Checkout Page */
+.card-header {
+	font-size: 25px;
+	background-color: #f48924;
+	color: #fff;
+}
+.form-control {
+	border-radius: 0;
+}
+.footer-border {
+	border-right: 1px solid #25d366;
+}

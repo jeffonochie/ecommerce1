@@ -1,0 +1,26 @@
+* {
+	font-size: 13px;
+}
+.item-header {
+	background-color: #d42a04;
+	color: #fff;
+	border-bottom: 4px solid #4f5152;
+	text-align: center;
+}
+.table-style1 th {
+	
+}
+.td-height {
+	height: 150px;
+	overflow-y: scroll;
+
+}
+
+.btn-custom {
+	border-radius: 0;
+	background: red;
+}
+
+#capitalize {
+	text-transform: capitalize;
+}
